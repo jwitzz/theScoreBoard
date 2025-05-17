@@ -67,3 +67,41 @@ body {
     button:hover {
       background-color: #0056b3;
     }
+
+    /*Phone Settings*/
+
+    @media (max-width: 600px) {
+  #banner {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .banner-para {
+    font-size: 32px;
+  }
+
+  .banner-about {
+    font-size: 16px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem 0;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .player {
+    width: 90%;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
