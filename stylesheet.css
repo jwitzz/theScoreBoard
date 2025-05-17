@@ -73,15 +73,15 @@ body {
     @media (max-width: 600px) {
   #banner {
     height: auto;
-    padding: 1rem;
+    padding: 5rem;
   }
 
   .banner-para {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .banner-about {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   nav {
